@@ -4,6 +4,15 @@
 
   <div class="container">
     <div class="row">
+
+      <h2 class="text-center">Contacto</h2>
+
+      <div class="row">
+        <div class="col-md-12">
+          <p>Contactate ante cualquier duda o pregunta!</p>
+        </div>
+      </div>
+
       <form class="" action="index.html" method="post">
         {{ csrf_field() }}
 
