@@ -8,6 +8,37 @@
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
+.imagenavatar{
+  width: 50px;
+  float: left;
+}
+
+.nav2{
+  background: rgb(48, 48, 48);
+  color: white;
+  padding-left: 40px;
+  padding-top: 25px;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
+
+.altura{
+  min-height: 100vh;
+}
+
+footer{
+  background: rgb(43, 43, 43);
+  color: white;
+  padding:  50px 0;
+
+}
+
+.imagencarrito{
+  max-width: 100px;
+}
+
 .glyphicon{
   font-size: 18px;
   padding: 5px;
@@ -19,8 +50,11 @@
 
 
 .comentarios img{
-  max-height: 300px;
+  max-width: 150px;
+}
 
+.comentarios .row{
+  margin: 25px;
 }
 
 .homeimagenes img{
@@ -35,7 +69,7 @@
 }
 
 .masvendidos img{
-  max-height: 300px;
+  max-width: 200px;
   margin-top: 25px;
 }
 
@@ -57,7 +91,7 @@
 }
 
 .destacados:hover .capa{
-  background: rgba(236, 94, 94, 0.7);
+  background: rgba(0, 0, 0, 0.7);
   cursor: pointer;
 }
 
@@ -86,9 +120,17 @@
 
 .cart a{
   display: block;
-  float: right;
   width: 10%;
   margin:0;
+  float: right;
+}
+
+.linea{
+}
+
+.cartdiv{
+  padding:20px;
+  border-bottom: 1px black solid;
 }
 
 .cart ul{
@@ -96,9 +138,9 @@
 }
 
 .cart p{
-  width: 89%;
+
   margin: 0 ;
-  float: left;
+
 }
 
 .errores{
@@ -176,6 +218,11 @@ li{
 
 .productos{
   text-align: center;
+  padding-top: 25px;
+}
+
+.faq{
+  padding-top: 25px;
 }
 
 .productos img{

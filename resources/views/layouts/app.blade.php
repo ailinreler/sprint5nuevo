@@ -23,6 +23,9 @@
   @if (Auth::check() && (Auth::User()->typeOfUser == 1 || Auth::User()->typeOfUser == 2))
     <div class="row">
       <div class="col-md-2">
+        @if (Auth::User()->avatar)
+          <img class="imagenavatar" src="{{Auth::User()->avatar}}" alt="">
+        @endif
         <p>Hola {{Auth::User()->name}} !</p>
       </div>
       <div class="col-md-10">

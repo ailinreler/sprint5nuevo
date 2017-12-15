@@ -3,7 +3,7 @@
 @section('content')
 
 
-  <div class="container">
+  <div class="container altura">
     <div class="row">
       <div class="col-md-12">
         <form class="editform" action="/updateproduct/@if (isset($products[0]->id))

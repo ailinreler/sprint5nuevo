@@ -2,7 +2,7 @@
 
 @section('content')
 
-  <div class="container">
+  <div class="container altura">
     <div class="row">
 
       <h2 class="text-center">Contacto</h2>

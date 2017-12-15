@@ -2,7 +2,7 @@
 
 @section('content')
 
-  <div class="container">
+  <div class="container altura">
 
     @if (count($errors) > 0)
       <div class="errores">
@@ -46,6 +46,11 @@
           <div class="form-group">
             <label for="password_confirmation">password</label>
             <input class="password_confirmation" type="password" name="password_confirmation" value="" id="password_confirmation">
+          </div>
+
+          <div class="form-group">
+            <label for="">Avatar:</label>
+            <input type="file" name="avatar" value="">
           </div>
 
           <div class="form-group">

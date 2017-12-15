@@ -4,8 +4,8 @@
 
   {{-- comienzo barra de categorias y tags --}}
 
-  <div class="row">
-    <div class="col-md-3">
+  <div class="row altura">
+    <div class="col-md-3 nav2 altura">
       <form class="" action="/buscadorproductos" method="post">
         {{ csrf_field() }}
 

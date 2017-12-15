@@ -2,7 +2,7 @@
 
 @section('content')
 
-  <div class="container">
+  <div class="container altura">
     <div class="row">
 
       <form action="/addproduct" method="post" enctype="multipart/form-data">
