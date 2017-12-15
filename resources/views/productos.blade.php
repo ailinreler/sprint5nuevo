@@ -5,7 +5,7 @@
   {{-- comienzo barra de categorias y tags --}}
 
   <div class="row altura">
-    <div class="col-md-3 nav2 altura">
+    <div class="col-md-2 nav2 altura">
       <form class="" action="/buscadorproductos" method="post">
         {{ csrf_field() }}
 
@@ -55,7 +55,7 @@
 
     {{-- comienzo listado de productos --}}
 
-    <div class="col-md-9">
+    <div class="col-md-10">
       <div class="row productos">
         @foreach ($products as $product)
           <div class="col-md-3 productos-height">

@@ -84,7 +84,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <img src="{{$products[0]->imagen}}" alt="">
+              <img src="\images\cliente2.jpg" alt="">
             </div>
 
             <div class="col-md-8">
@@ -94,7 +94,7 @@
 
           <div class="row">
             <div class="col-md-4">
-              <img src="{{$products[0]->imagen}}" alt="">
+              <img src="\images\cliente3.jpg" alt="">
             </div>
 
             <div class="col-md-8">
