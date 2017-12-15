@@ -1,0 +1,203 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.glyphicon{
+  font-size: 18px;
+  padding: 5px;
+}
+
+.comentarios{
+  text-align: left;
+}
+
+
+.comentarios img{
+  max-height: 300px;
+
+}
+
+.homeimagenes img{
+  width: 100%;
+}
+
+.masvendidos{
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.masvendidos img{
+  max-height: 300px;
+  margin-top: 25px;
+}
+
+.elegirnosh2{
+  padding: 25px;
+}
+
+.elegirnos p{
+  padding: 25px;
+}
+
+.destacados{
+  background: white;
+  margin: auto;
+  text-align: center;
+  min-height: 400px;
+  position: relative;
+  margin: 20px;
+}
+
+.destacados:hover .capa{
+  background: rgba(236, 94, 94, 0.7);
+  cursor: pointer;
+}
+
+.capa{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+
+.capita{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.destacados img{
+  max-height: 300px;
+  max-width: 250px;
+  padding: 10px;
+}
+
+.cart a{
+  display: block;
+  float: right;
+  width: 10%;
+  margin:0;
+}
+
+.cart ul{
+  margin: 0;
+}
+
+.cart p{
+  width: 89%;
+  margin: 0 ;
+  float: left;
+}
+
+.errores{
+  padding: 25px;
+  background: white;
+  color: tomato;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.divErrores{
+  background: white;
+  color: tomato;
+  font-weight: 700;
+}
+
+.divErrores p{
+  padding: 10px;
+}
+
+.formulario-log{
+  max-width: 800px;
+  margin:auto;
+}
+
+.formulario-log label{
+  display: inline-block;
+  min-width: 100px;
+  width: 19%;
+}
+
+.formulario-log input[type='text'], .formulario-log input[type='email'], .formulario-log input[type='password']{
+  width: 80%;
+}
+
+input[type='submit']{
+  background: tomato;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+
+.formulario-log input[type='submit']{
+  float: right;
+}
+
+.formulario-log input[type='submit']:hover{
+  background: rgb(255, 66, 47);
+  border-radius: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.navbar.navbar-default ul li:hover{
+  background: tomato;
+}
+
+.navbar.navbar-default ul li:hover a{
+  color: white;
+}
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.dropdown-menu.menu-admin{
+  right: 0;
+  left: inherit;
+}
+
+.productos{
+  text-align: center;
+}
+
+.productos img{
+  width: 80%;
+}
+
+.productos-height{
+  min-height: 500px;
+}
+
+
+@media all and (max-width:950px){
+
+
+
+  .formulario-log label{
+
+    width: 100%;
+  }
+
+  .formulario-log input[type='text'], .formulario-log input[type='email'], .formulario-log input[type='password']{
+    width: 100%;
+  }
+
+}
